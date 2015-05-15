@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE3DD3F0368E7FABECF4BE0 /* Pods-htmlLabelTest-HTMLLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B515C48321A62E615F66A19F /* Pods-htmlLabelTest-HTMLLabel-dummy.m */; };
+		4E85D098F8A1A6B9DFFD007E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA02B9FEADBD704BD10A9313 /* Foundation.framework */; };
+		4EC6C674B2D4AF2B2055A992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA02B9FEADBD704BD10A9313 /* Foundation.framework */; };
+		639D3725D5C31F8725554AE9 /* Pods-htmlLabelTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70595AD2231AE21C6FB5E8B2 /* Pods-htmlLabelTest-dummy.m */; };
+		D2BF57CB7BDB97F452A887B0 /* HTMLLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEC6E54D4105962B5A537DA /* HTMLLabel.h */; };
+		D75398DE9A295457C0AF7F69 /* HTMLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 814D09EE5CAE527C3B3D5989 /* HTMLLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CD9F1260E5A2C4E6F11A250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA68E673CCB8D1CE91E3B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B12D36AF4A5C959964C792AB;
+			remoteInfo = "Pods-htmlLabelTest-HTMLLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F81367747368E18B7D6361 /* libPods-htmlLabelTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlLabelTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CEF5376E43B363B44E2A5E /* Pods-htmlLabelTest-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-htmlLabelTest-environment.h"; sourceTree = "<group>"; };
+		0EEC6E54D4105962B5A537DA /* HTMLLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLLabel.h; path = HTMLLabel/HTMLLabel.h; sourceTree = "<group>"; };
+		190918D27831B87F0768C95D /* Pods-htmlLabelTest-HTMLLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-htmlLabelTest-HTMLLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		20681207ED8E6AC5F6D75FAE /* Pods-htmlLabelTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-htmlLabelTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4762CD9FFB8E38E2BB56DAA0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F9624DBE54652D8847158A1 /* Pods-htmlLabelTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-htmlLabelTest.debug.xcconfig"; sourceTree = "<group>"; };
+		68D49A7F428C976803D1689B /* Pods-htmlLabelTest-HTMLLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-htmlLabelTest-HTMLLabel-prefix.pch"; sourceTree = "<group>"; };
+		6FB6C6E7A9BC6C5ED396EFC5 /* Pods-htmlLabelTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-htmlLabelTest.release.xcconfig"; sourceTree = "<group>"; };
+		70595AD2231AE21C6FB5E8B2 /* Pods-htmlLabelTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-htmlLabelTest-dummy.m"; sourceTree = "<group>"; };
+		75EB1625E3E0153393563E76 /* libPods-htmlLabelTest-HTMLLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-htmlLabelTest-HTMLLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814D09EE5CAE527C3B3D5989 /* HTMLLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTMLLabel.m; path = HTMLLabel/HTMLLabel.m; sourceTree = "<group>"; };
+		A02A8943C2239AD107DB5944 /* Pods-htmlLabelTest-HTMLLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-htmlLabelTest-HTMLLabel.xcconfig"; sourceTree = "<group>"; };
+		B515C48321A62E615F66A19F /* Pods-htmlLabelTest-HTMLLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-htmlLabelTest-HTMLLabel-dummy.m"; sourceTree = "<group>"; };
+		BD19B2E2F65939CA6856CB9A /* Pods-htmlLabelTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-htmlLabelTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA02B9FEADBD704BD10A9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCDE48FA59B55FE192405A9E /* Pods-htmlLabelTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-htmlLabelTest-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663CB2894C884CA486E0D304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E85D098F8A1A6B9DFFD007E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EF1149D9B29DBAC7F33094A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC6C674B2D4AF2B2055A992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4F8A158F899AA1AE078B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1681F90A04BB3DF44830BAB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46AF2AA1BFA932926C123904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F81367747368E18B7D6361 /* libPods-htmlLabelTest.a */,
+				75EB1625E3E0153393563E76 /* libPods-htmlLabelTest-HTMLLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCFA7B0C7E5B7488A2D0BC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF529D789BB2CEA7B80CF944 /* HTMLLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6991BD0D624B0019D173365F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A91B5E929557A919020F9E /* Pods-htmlLabelTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		93998FD6FC50F588C0222957 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02A8943C2239AD107DB5944 /* Pods-htmlLabelTest-HTMLLabel.xcconfig */,
+				190918D27831B87F0768C95D /* Pods-htmlLabelTest-HTMLLabel-Private.xcconfig */,
+				B515C48321A62E615F66A19F /* Pods-htmlLabelTest-HTMLLabel-dummy.m */,
+				68D49A7F428C976803D1689B /* Pods-htmlLabelTest-HTMLLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-htmlLabelTest-HTMLLabel";
+			sourceTree = "<group>";
+		};
+		93A91B5E929557A919020F9E /* Pods-htmlLabelTest */ = {
+			isa = PBXGroup;
+			children = (
+				20681207ED8E6AC5F6D75FAE /* Pods-htmlLabelTest-acknowledgements.markdown */,
+				BD19B2E2F65939CA6856CB9A /* Pods-htmlLabelTest-acknowledgements.plist */,
+				70595AD2231AE21C6FB5E8B2 /* Pods-htmlLabelTest-dummy.m */,
+				05CEF5376E43B363B44E2A5E /* Pods-htmlLabelTest-environment.h */,
+				DCDE48FA59B55FE192405A9E /* Pods-htmlLabelTest-resources.sh */,
+				4F9624DBE54652D8847158A1 /* Pods-htmlLabelTest.debug.xcconfig */,
+				6FB6C6E7A9BC6C5ED396EFC5 /* Pods-htmlLabelTest.release.xcconfig */,
+			);
+			name = "Pods-htmlLabelTest";
+			path = "Target Support Files/Pods-htmlLabelTest";
+			sourceTree = "<group>";
+		};
+		C3DC4806DF1B47C3BE5D20A1 = {
+			isa = PBXGroup;
+			children = (
+				4762CD9FFB8E38E2BB56DAA0 /* Podfile */,
+				2C4F8A158F899AA1AE078B40 /* Frameworks */,
+				5DCFA7B0C7E5B7488A2D0BC3 /* Pods */,
+				46AF2AA1BFA932926C123904 /* Products */,
+				6991BD0D624B0019D173365F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1681F90A04BB3DF44830BAB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DA02B9FEADBD704BD10A9313 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF529D789BB2CEA7B80CF944 /* HTMLLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0EEC6E54D4105962B5A537DA /* HTMLLabel.h */,
+				814D09EE5CAE527C3B3D5989 /* HTMLLabel.m */,
+				93998FD6FC50F588C0222957 /* Support Files */,
+			);
+			path = HTMLLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E325C6A9384414D823CE910 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BF57CB7BDB97F452A887B0 /* HTMLLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75DFAAC9CA1CD25F39D5901A /* Pods-htmlLabelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7F701D3A9A6A4BA8E93C25F /* Build configuration list for PBXNativeTarget "Pods-htmlLabelTest" */;
+			buildPhases = (
+				A8FAF280342D950C618F29F1 /* Sources */,
+				6EF1149D9B29DBAC7F33094A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF4FCF04BBCBD3525B5C755 /* PBXTargetDependency */,
+			);
+			name = "Pods-htmlLabelTest";
+			productName = "Pods-htmlLabelTest";
+			productReference = 02F81367747368E18B7D6361 /* libPods-htmlLabelTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B12D36AF4A5C959964C792AB /* Pods-htmlLabelTest-HTMLLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B768093A534FC4ED3220B9 /* Build configuration list for PBXNativeTarget "Pods-htmlLabelTest-HTMLLabel" */;
+			buildPhases = (
+				24CC344E17A9A34D987BD1C4 /* Sources */,
+				663CB2894C884CA486E0D304 /* Frameworks */,
+				6E325C6A9384414D823CE910 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-htmlLabelTest-HTMLLabel";
+			productName = "Pods-htmlLabelTest-HTMLLabel";
+			productReference = 75EB1625E3E0153393563E76 /* libPods-htmlLabelTest-HTMLLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA68E673CCB8D1CE91E3B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 53ABA3E8D1A9C1AE7C9A650B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3DC4806DF1B47C3BE5D20A1;
+			productRefGroup = 46AF2AA1BFA932926C123904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75DFAAC9CA1CD25F39D5901A /* Pods-htmlLabelTest */,
+				B12D36AF4A5C959964C792AB /* Pods-htmlLabelTest-HTMLLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CC344E17A9A34D987BD1C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75398DE9A295457C0AF7F69 /* HTMLLabel.m in Sources */,
+				0AE3DD3F0368E7FABECF4BE0 /* Pods-htmlLabelTest-HTMLLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8FAF280342D950C618F29F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639D3725D5C31F8725554AE9 /* Pods-htmlLabelTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF4FCF04BBCBD3525B5C755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-htmlLabelTest-HTMLLabel";
+			target = B12D36AF4A5C959964C792AB /* Pods-htmlLabelTest-HTMLLabel */;
+			targetProxy = 0CD9F1260E5A2C4E6F11A250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E1C5D443A24D4F6B6C456BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B0E0024875F63CD90C8C655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB6C6E7A9BC6C5ED396EFC5 /* Pods-htmlLabelTest.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5ED6FBEA16CA84BCC2EC5ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190918D27831B87F0768C95D /* Pods-htmlLabelTest-HTMLLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-htmlLabelTest-HTMLLabel/Pods-htmlLabelTest-HTMLLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E20025FA98823F544F136AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9624DBE54652D8847158A1 /* Pods-htmlLabelTest.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C366249D0C4AFF8C6CDE235F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6D7E5E0DFCDBB01DDA1C145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190918D27831B87F0768C95D /* Pods-htmlLabelTest-HTMLLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-htmlLabelTest-HTMLLabel/Pods-htmlLabelTest-HTMLLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53ABA3E8D1A9C1AE7C9A650B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C366249D0C4AFF8C6CDE235F /* Debug */,
+				3E1C5D443A24D4F6B6C456BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B768093A534FC4ED3220B9 /* Build configuration list for PBXNativeTarget "Pods-htmlLabelTest-HTMLLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED6FBEA16CA84BCC2EC5ABE /* Debug */,
+				D6D7E5E0DFCDBB01DDA1C145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7F701D3A9A6A4BA8E93C25F /* Build configuration list for PBXNativeTarget "Pods-htmlLabelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E20025FA98823F544F136AB /* Debug */,
+				4B0E0024875F63CD90C8C655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA68E673CCB8D1CE91E3B70 /* Project object */;
+}

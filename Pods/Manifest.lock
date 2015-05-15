@@ -1,0 +1,19 @@
+PODS:
+  - HTMLLabel (1.0)
+
+DEPENDENCIES:
+  - HTMLLabel (from `https://github.com/nicklockwood/HTMLLabel.git`)
+
+EXTERNAL SOURCES:
+  HTMLLabel:
+    :git: https://github.com/nicklockwood/HTMLLabel.git
+
+CHECKOUT OPTIONS:
+  HTMLLabel:
+    :commit: 8f3c20d4bedce8b52cf6b1efd6937827ef6b3c9b
+    :git: https://github.com/nicklockwood/HTMLLabel.git
+
+SPEC CHECKSUMS:
+  HTMLLabel: c8033e90e5a94ab511a822a92f86e3ea53b7e7fb
+
+COCOAPODS: 0.37.1
