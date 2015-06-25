@@ -13,7 +13,7 @@
 
 @end
 
-#define RENDER_INCORRECTLY_IN_BOLD 0
+#define RENDER_INCORRECTLY_IN_BOLD 1
 
 @implementation ViewController
 
