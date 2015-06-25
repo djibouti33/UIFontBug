@@ -13,7 +13,7 @@
 
 @end
 
-#define RENDER_INCORRECTLY_IN_BOLD 1
+#define RENDER_INCORRECTLY_IN_BOLD 0
 
 @implementation ViewController
 
@@ -27,6 +27,8 @@
 #else
     self.label.font = [UIFont fontWithName:font.fontName size:font.pointSize];
 #endif
+
+    NSLog(@"The label's font should be Fort-Book. The label's font is actually %@.", self.label.font.fontName);
 
 }
 
